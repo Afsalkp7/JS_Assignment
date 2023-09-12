@@ -194,7 +194,7 @@ function armstrong(){
 
 function fib(){
     let number = prompt("enter lenght : ","")
-    const fibArray=[1,1];
+    const fibArray=[0,1];
     for ( i=1 ; i < number ; i++){
         let ele = fibArray[i]+fibArray[i-1];
         fibArray.push(ele);
